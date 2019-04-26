@@ -10,8 +10,8 @@ public class FibonacciTest {
     public void getFibbo(){
         Fibonacci fibonacci = new Fibonacci();
 
-        Integer result = fibonacci.fibonacci(10);
-        System.out.println("The fibbo of 10 is " + result);
+        Integer result = fibonacci.fibonacci(18);
+        System.out.println("The fibbo of 18 is " + result);
     }
 
 }
