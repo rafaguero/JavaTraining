@@ -2,6 +2,9 @@ package problems;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class GenericTest {
 
     public int getFibo(int n){
@@ -14,6 +17,24 @@ public class GenericTest {
 
     }
 
+    public List<Integer> bubbleSort(List<Integer>numbers){
+        int index = 0;
+        int maxNumber = numbers.size()-1;
+
+        while (index < maxNumber){
+            if ( numbers.get(index) > numbers.get(index + 1)){
+                Integer tempL = numbers.get(index + 1);
+                Integer tempH = numbers.get(index);
+                numbers.set(index,tempL);
+                numbers.set(index+1,tempH);
+                index++;
+            }else
+                index++;
+        }
+
+       return numbers;
+    }
+    /****************************************************************************************/
     public int getGCD(int p, int q) {
         if (q == 0) {
             return p;
@@ -35,7 +56,7 @@ public Boolean packageRice(Integer big, Integer small, Integer goal) {
 
 }
 
-    @Test
+ //   @Test
     public void testFibo(){
         System.out.println(10%15);
         GenericTest genericTest = new GenericTest();
@@ -45,5 +66,11 @@ public Boolean packageRice(Integer big, Integer small, Integer goal) {
 
         System.out.println("rice packages goal is " + 12 + "small is 2 big is 2 result " + genericTest.packageRice(5,3,24) );
 
+    }
+    @Test
+    public void testBubbleSort(){
+
+    List<Integer> numbers = Arrays.asList(2,1,3,5,4);
+        System.out.println(bubbleSort(numbers));
     }
 }
