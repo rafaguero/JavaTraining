@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 import static org.junit.Assert.assertThat;
 
 public class StreamTest1 {
-
+    /* adding comment */
     Employee[] empList ={
             new Employee(1, "Jeff Bezos", 100000.0),
             new Employee(2, "Bill Gates", 200000.0),
