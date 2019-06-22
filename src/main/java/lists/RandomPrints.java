@@ -6,7 +6,7 @@ public class RandomPrints {
     public static void main(String[] args) {
 
         // Get and shuffle the list of arguments
-        List<String> argList = Arrays.asList(args);
+        List<String> argList = Arrays.asList("San Luis", "Mexicali","Yuma","Phoenix");
         Collections.shuffle(argList);
 
         // Print out the elements using JDK 8 Streams

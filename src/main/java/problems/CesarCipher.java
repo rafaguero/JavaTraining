@@ -2,6 +2,17 @@ package problems;
 
 public class CesarCipher {
 
+
+    public static void main(String[] args) {
+        CesarCipher cesarCipher = new CesarCipher();
+        String result = cesarCipher.decode("xvm");
+        System.out.println(result);
+
+        CesarCipher cesarCipher2 = new CesarCipher();
+        String result2 = cesarCipher2.encode("java");
+        System.out.println(result2);
+    }
+
     public String decode(String code) {
 
         String decoded = "";

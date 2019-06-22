@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Countdown {
     public static void main(String[] args) throws InterruptedException {
-        int time = Integer.parseInt(args[0]);
+        int time = 10;
         Queue<Integer> queue = new LinkedList<Integer>();
 
         for (int i = time; i >= 0; i--)

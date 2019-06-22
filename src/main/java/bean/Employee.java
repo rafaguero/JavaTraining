@@ -1,6 +1,6 @@
 package bean;
 
-public class Employee {
+public class Employee implements Comparable{
     int index;
     String name;
     Double salary;
@@ -46,5 +46,11 @@ public class Employee {
                 ", name='" + name + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Employee temp = (Employee) o;
+        return this.salary > temp.salary? 1 : this.salary < temp.salary ? -1 : 0;
     }
 }

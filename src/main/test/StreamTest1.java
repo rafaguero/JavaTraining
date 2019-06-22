@@ -1,6 +1,6 @@
 import bean.Employee;
 import org.junit.Test;
-import org.junit.jupiter.api.Assertions;
+
 import static org.hamcrest.CoreMatchers.*;
 import java.util.stream.Stream;
 
@@ -22,6 +22,7 @@ public class StreamTest1 {
            Employee newEmp = (Employee)e;
            newEmp.salaryIncrement(increment);
             System.out.println(newEmp.toString());
+
         }));
 
     }

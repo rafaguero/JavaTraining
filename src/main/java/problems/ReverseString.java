@@ -16,4 +16,9 @@ public class ReverseString {
         }
         return String.valueOf(outputString);
     }
+    public String reverseTwo(String word){
+        StringBuffer newWord = new StringBuffer(word);
+        newWord.reverse();
+        return newWord.toString();
+    }
 }

@@ -3,6 +3,10 @@ package problems;
 
 
 public class PrimeNumber {
+    public static void main(String[] args) {
+        PrimeNumber primeNumber = new PrimeNumber();
+        System.out.println("The number 2 is prime?" + primeNumber.isPrime(10) );
+    }
 
     public Boolean isPrime(Integer n) {
         boolean isPrime = true;

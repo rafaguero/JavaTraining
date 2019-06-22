@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Frequency {
     public static void main(String[] args) {
-        Map<String, Integer> m = new HashMap<String, Integer>();
+        Map<String, Integer> m = new HashMap<>();
 
         // Initialize frequency table from command line
         for (String a : args) {
