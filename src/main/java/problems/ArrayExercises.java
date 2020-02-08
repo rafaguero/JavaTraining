@@ -2,7 +2,7 @@ package problems;
 
 import java.util.*;
 
-public class ArrayExercises {
+public class  ArrayExercises {
     public static void main(String[] args) {
         int[] numbers3 = {1,3,5,7,9,10};
         int[] numbers2 = {11,13,14,16,17,19};

@@ -4,16 +4,17 @@ package problems;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        PrimeNumber primeNumber = new PrimeNumber();
-        System.out.println("The number 2 is prime?" + primeNumber.isPrime(10) );
+        int number = 9;
+        System.out.println("The number " + number + " is prime? " + isPrime(number) );
     }
 
-    public Boolean isPrime(Integer n) {
+    public static Boolean isPrime(Integer n) {
         boolean isPrime = true;
         for (int i = n - 1; i > 1; i--) {
             if (n % i == 0) {
                 isPrime = false;
                 break;
+
             }
         }
         return isPrime;

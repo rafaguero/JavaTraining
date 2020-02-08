@@ -1,16 +1,16 @@
 package ocpjp8;
+public class TestPaths {
+    class MyException extends RuntimeException {}
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
-
-    public class TestPaths {
-        public static void main(String[] args) {
-            Path path1 = Paths.get("C:\\A\\B\\C");
-            Path path2 = Paths.get("C:\\A");
-            System.out.println(path1.relativize(path2));
-            System.out.println(path2.relativize(path1));
-
+    class YourException extends RuntimeException {}
+    public static void main(String[] args) {
+        try {
+            System.out.println("testing");
+            throw new Exception();
+        } catch (MyException | YourException e2) {
+            System.out.println("Caught");
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
-
+}

@@ -5,14 +5,14 @@ import java.util.*;
 public class MultipleExercises {
 
     public static void main(String[] args) {
-
         int z = 5 %3;
         System.out.println(z);
         MultipleExercises multipleExercises = new MultipleExercises();
-   //     System.out.println("the factorial of 3 is " + multipleExercises.getFactorial(3));
+        System.out.println("the factorial of 3 is " + multipleExercises.getFactorial(3));
         int fiboNumber = 7;
-    //    System.out.printf("the fibbo number for %d is %d",fiboNumber,multipleExercises.getFibbo(fiboNumber));
-      //  multipleExercises.printPyramid(8);
+        System.out.printf("the fibbo number for %d is %d",fiboNumber,multipleExercises.getFibbo(fiboNumber));
+        System.out.println();
+        multipleExercises.printPyramid(8);
 
         //Do Bubble sort
         int[] numbers = {4,3,7,5,9,11,21,20,19};
