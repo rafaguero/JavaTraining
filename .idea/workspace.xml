@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2607f8d-04c6-446b-8a2b-7dc044cd675d" name="Default Changelist" comment="more files to commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/GraphMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/GraphNodeInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/GraphNodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/GraphTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/GraphTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/LargestComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/QueueGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/SmallestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/SourceDest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/AddOneToNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/FiboMemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/binarytree/FindMinDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/binarytree/TreePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graph/SmallestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graph/SmallestPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,20 +75,7 @@
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestComponent">
-    <configuration name="AddOneToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.AddOneToNumber" />
-      <module name="JavaTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SmallestPath">
     <configuration name="GraphMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.GraphMain" />
       <module name="JavaTraining" />
@@ -132,6 +104,19 @@
     </configuration>
     <configuration name="LargestComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.LargestComponent" />
+      <module name="JavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallestPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.SmallestPath" />
       <module name="JavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -178,20 +163,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AddOneToNumber" />
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="Application.SourceDest" />
       <item itemvalue="Application.GraphMain" />
       <item itemvalue="Application.GraphTest2" />
       <item itemvalue="Application.LargestComponent" />
+      <item itemvalue="Application.SmallestPath" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmallestPath" />
         <item itemvalue="Application.LargestComponent" />
         <item itemvalue="Application.GraphTest2" />
         <item itemvalue="Application.GraphMain" />
         <item itemvalue="Application.SourceDest" />
-        <item itemvalue="Application.AddOneToNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572038512211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="more files to commit">
+      <created>1632281543316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632281543316</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,6 +381,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/graph/LargestComponent.java</url>
           <line>32</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graph/SmallestPath.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/graph/SmallestPath.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
