@@ -2,7 +2,7 @@ package problems;
 
 public class Factorial {
     public static void main(String[] args) {
-        int number = 10;
+        int number = 11;
         int result=1;
 
       //10*9*8*7*6*5...
