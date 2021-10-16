@@ -43,13 +43,15 @@ public class GraphOrg {
                 counter = getUniqueNodeCount(tempNode) + counter;
             }
         }
+        return counter;
     }
 
     public static void main(String[] args) {
         GraphOrg graphOrg = new GraphOrg();
         GraphOrgNode root = graphOrg.buildGraph();
         int noLeafs = graphOrg.getLeafCount(root);
-
+        int noUniqueNodes = graphOrg.getUniqueNodeCount(root);
+        System.out.println("number of unique nodes " + noUniqueNodes);
         System.out.println("number of leafs " + noLeafs);
 
     }

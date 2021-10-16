@@ -5,34 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2607f8d-04c6-446b-8a2b-7dc044cd675d" name="Default Changelist" comment="more files to commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean/GraphNodeAirport.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/bean/GraphOrgNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean/LinkedLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/linkedlist/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graph/AirPortRoutes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/BestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/CanSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/CanSumRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/FindAllSubStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/FindTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/FirstNonRepeatChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/GraphOrg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/HowSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/IntervalsOverlapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/MatrixExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/PhoneString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/amazon/OverlappingArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/recursion/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/recursion/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/recursion/MaxMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/recursion/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/recursion/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/recursion/SumOfNaturalNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/tree/FinAllUniv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ocpjp8/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ocpjp8/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/GraphOrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/GraphOrg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632597625460</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="more files to commit">
+      <created>1634404946980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1634404946981</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
