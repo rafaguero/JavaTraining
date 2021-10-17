@@ -1,10 +1,7 @@
 package problems;
 
 import bean.GraphOrgNode;
-
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class GraphOrg {
 
@@ -53,8 +50,6 @@ public class GraphOrg {
         int noUniqueNodes = graphOrg.getUniqueNodeCount(root);
         System.out.println("number of unique nodes " + noUniqueNodes);
         System.out.println("number of leafs " + noLeafs);
-
     }
-
 
 }
