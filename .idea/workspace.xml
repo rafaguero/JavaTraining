@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2607f8d-04c6-446b-8a2b-7dc044cd675d" name="Default Changelist" comment="more files to commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/BattleShips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/SortInputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/recursion/FindBinaryGap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/GraphOrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/GraphOrg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,35 +78,9 @@
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GraphOrg">
-    <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.recursion.DecimalToBinary" />
-      <module name="JavaTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.FindTwoNumbers" />
-      <module name="JavaTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GraphOrg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.GraphOrg" />
+  <component name="RunManager" selected="Application.SeatManager">
+    <configuration name="AddOneToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.AddOneToNumber" />
       <module name="JavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -116,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.MatrixExample1" />
+    <configuration name="FindBinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.recursion.FindBinaryGap" />
       <module name="JavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="problems.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +105,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.PhoneString" />
+    <configuration name="SeatManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.SeatManager" />
       <module name="JavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortInputData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.SortInputData" />
+      <module name="JavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortStudents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.SortStudents" />
+      <module name="JavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,20 +166,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindTwoNumbers" />
-      <item itemvalue="Application.MatrixExample1" />
-      <item itemvalue="Application.PhoneString" />
-      <item itemvalue="Application.DecimalToBinary" />
+      <item itemvalue="Application.FindBinaryGap" />
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="Application.GraphOrg" />
+      <item itemvalue="Application.SortInputData" />
+      <item itemvalue="Application.AddOneToNumber" />
+      <item itemvalue="Application.SortStudents" />
+      <item itemvalue="Application.SeatManager" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GraphOrg" />
-        <item itemvalue="Application.DecimalToBinary" />
-        <item itemvalue="Application.PhoneString" />
-        <item itemvalue="Application.MatrixExample1" />
-        <item itemvalue="Application.FindTwoNumbers" />
+        <item itemvalue="Application.SeatManager" />
+        <item itemvalue="Application.FindBinaryGap" />
+        <item itemvalue="Application.SortStudents" />
+        <item itemvalue="Application.AddOneToNumber" />
+        <item itemvalue="Application.SortInputData" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634405150209</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="more files to commit">
+      <created>1634493869538</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634493869538</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,9 +459,9 @@
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/problems/GraphOrg.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="75" />
+          <url>file://$PROJECT_DIR$/src/main/java/problems/recursion/FindBinaryGap.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
