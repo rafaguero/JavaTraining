@@ -1,4 +1,4 @@
-package problems;
+package problems.graph;
 
 import bean.GraphOrgNode;
 import java.util.Arrays;

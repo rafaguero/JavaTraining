@@ -10,5 +10,6 @@ public class RemoveDupps {
         List<Integer> numbers = Arrays.asList(1,1,3,5,6,6,8,9);
         Set<Integer> noDupps = new HashSet<>(numbers);
         System.out.println(noDupps);
+
     }
 }

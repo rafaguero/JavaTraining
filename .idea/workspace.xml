@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2607f8d-04c6-446b-8a2b-7dc044cd675d" name="Default Changelist" comment="more files to commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/BattleShips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/SortInputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/recursion/FindBinaryGap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BuyStocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/ArrayProblems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/FirstRepeatChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/SeatManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/StringExcercises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/TripleStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/UniqueChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/VowelRemoval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/arrays/InterceptOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stack/StackArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/GraphOrg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/graph/GraphOrg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/RemoveDupps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/RemoveDupps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/RotateArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/queue/Countdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queue/Countdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +58,24 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="moduleName" value="JavaTraining" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_1.groovy" />
+        </Entry>
+        <Entry>
+          <option name="moduleName" value="JavaTraining" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_2.groovy" />
+        </Entry>
+        <Entry>
+          <option name="moduleName" value="JavaTraining" />
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -78,7 +107,7 @@
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeatManager">
+  <component name="RunManager" selected="Application.InterceptOfTwoArrays">
     <configuration name="AddOneToNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.AddOneToNumber" />
       <module name="JavaTraining" />
@@ -92,21 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindBinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.recursion.FindBinaryGap" />
-      <module name="JavaTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeatManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.SeatManager" />
+    <configuration name="ArrayProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.ArrayProblems" />
       <module name="JavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +134,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortInputData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.SortInputData" />
+    <configuration name="InterceptOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.arrays.InterceptOfTwoArrays" />
+      <module name="JavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringExcercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.StringExcercises" />
       <module name="JavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortStudents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="problems.SortStudents" />
+    <configuration name="VowelRemoval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.VowelRemoval" />
       <module name="JavaTraining" />
       <extension name="coverage">
         <pattern>
@@ -166,20 +195,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindBinaryGap" />
-      <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="Application.SortInputData" />
+      <item itemvalue="Application.ArrayProblems" />
+      <item itemvalue="Application.StringExcercises" />
       <item itemvalue="Application.AddOneToNumber" />
-      <item itemvalue="Application.SortStudents" />
-      <item itemvalue="Application.SeatManager" />
+      <item itemvalue="Application.VowelRemoval" />
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="Application.InterceptOfTwoArrays" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SeatManager" />
-        <item itemvalue="Application.FindBinaryGap" />
-        <item itemvalue="Application.SortStudents" />
+        <item itemvalue="Application.InterceptOfTwoArrays" />
+        <item itemvalue="Application.VowelRemoval" />
         <item itemvalue="Application.AddOneToNumber" />
-        <item itemvalue="Application.SortInputData" />
+        <item itemvalue="Application.ArrayProblems" />
+        <item itemvalue="Application.StringExcercises" />
       </list>
     </recent_temporary>
   </component>
@@ -462,6 +491,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/problems/recursion/FindBinaryGap.java</url>
           <line>8</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BuyStocks.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/ArrayProblems.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/ArrayProblems.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/StringExcercises.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/StringExcercises.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/problems/arrays/InterceptOfTwoArrays.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
