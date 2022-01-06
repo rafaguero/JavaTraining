@@ -10,7 +10,6 @@ For example, {2,7,15,8} t =10
 public class TwoSum {
     private static List<Integer> result;
 
-
     private static List<Integer> findTwoSum(int[] numbers,int target){
         List<Integer> result = new ArrayList<>();
         for (int i=0;i<numbers.length;i++){

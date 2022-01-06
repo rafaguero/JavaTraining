@@ -3,7 +3,7 @@ package problems;
 
 public class Palindrome {
 
-    public boolean isPalindrome(String str){
+    public static boolean isPalindrome(String str){
 
         StringBuffer word = new StringBuffer(str);
         String reverse = word.reverse().toString();
@@ -15,5 +15,7 @@ public class Palindrome {
 
     }
 
-
+    public static void main(String[] args) {
+        System.out.println("is palindrome " + isPalindrome("hello"));
+    }
 }
