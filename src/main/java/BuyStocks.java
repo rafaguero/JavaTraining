@@ -1,39 +1,53 @@
 public class BuyStocks {
 
-    private static int[] prices = {7,1,5,3,6,4};
-    /*
-    You are given an array prices where prices[i] is the price of a given stock on the ith day.
-You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
-Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+    // Function to return the maximum profit
+// that can be made after buying and
+// selling the given stocks
+    static int maxProfit(int price[], int start, int end)
+    {
 
-Ex1.
-In: prices = [7,1,5,3,6,4]
-Out: 5
+        // If the stocks can't be bought
+        if (end <= start)
+            return 0;
 
-Ex2.
-In: prices = [7,6,4,3,1]
-Out: 0
-     */
-    public static int getMaxProfit() {
-        //int[] prices = {7,1,5,3,6,4};
+        // Initialise the profit
         int profit = 0;
-        int finalProfit = 0;
-        for (int i=0;i<prices.length;i++){
-            for (int j=i; j< prices.length; j++){
-                if (prices[i] < prices[j]){
-                    System.out.println("profit has " + profit);
-                    profit = prices[j] - prices[i];
-                    if (profit > finalProfit){
-                        finalProfit = profit;
 
-                    }
+        // The day at which the stock
+        // must be bought
+        for (int i = start; i < end; i++)
+        {
+
+            // The day at which the
+            // stock must be sold
+            for (int j = i + 1; j <= end; j++)
+            {
+
+                // If buying the stock at ith day and
+                // selling it at jth day is profitable
+                if (price[j] > price[i])
+                {
+
+                    // Update the current profit
+                    int curr_profit = price[j] - price[i]
+                            + maxProfit(price, start, i - 1)
+                            + maxProfit(price, j + 1, end);
+
+                    // Update the maximum profit so far
+                    profit = Math.max(profit, curr_profit);
                 }
             }
         }
-        return finalProfit;
+        return profit;
     }
 
-    public static void main(String[] args) {
-        System.out.println(getMaxProfit());
+    // Driver code
+    public static void main(String[] args)
+    {
+        int price[] = { 100, 180, 260, 310,
+                40, 535, 695 };
+        int n = price.length;
+
+        System.out.print(maxProfit(price, 0, n - 1));
     }
 }
